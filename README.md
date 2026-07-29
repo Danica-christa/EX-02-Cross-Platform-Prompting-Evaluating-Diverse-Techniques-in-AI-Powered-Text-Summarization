@@ -25,55 +25,20 @@ Predict the risk of polypharmacy side effects using Quantum Machine Learning.
 
 ---
 ### Role Prompt
-You are an expert content summarizer, summarize the following article in a clear and concise manner.
+You are a Quantum Machine Learning and Healthcare AI expert tasked with developing a system to predict the risk of polypharmacy side effects using patient and medication data.
 
 ---
 ### Context Prompt
-You are an expert content summarizer.
-The following article is intended for first-year engineering students who need to quickly understand the key concepts of renewable energy before a class discussion.
-Summarize the article while highlighting the main ideas.
+Multiple medications can cause harmful drug interactions. Build a Quantum Machine Learning system that analyzes patient and medication data to predict the risk of adverse side effects and classify patients into Low, Medium, or High-risk categories.
 
 ---
 
 ### Constraint Prompt
-You are an expert content summarizer.
-
-The following article is for first-year engineering students preparing for an exam.
-
-Summarize the article using these constraints:
-- Keep the summary between 120 and 150 words.
-- Include only the most important points.
-- Do not include personal opinions.
-- Use simple and easy-to-understand language.
-- Avoid copying complete sentences from the article.
+Use only relevant patient and medication data, ensure accurate risk prediction, protect patient privacy, classify risk as Low/Medium/High, and keep the model efficient and interpretable.
 
 ---
 ### Output Format Prompt (Final Prompt)
-You are an expert content summarizer.
-
-The following article is for first-year engineering students preparing for an exam.
-
-Instructions:
-- Summarize the article in 120–150 words.
-- Use simple language.
-- Include only key points.
-- Maintain a neutral tone.
-- Do not add new information.
-
-Present the output in the following format:
-
-Title:
-<Short title>
-
-Summary:
-<120–150-word summary>
-
-Key Takeaways:
-• Point 1
-• Point 2
-• Point 3
-• Point 4
-• Point 5
+Generate the output in a clear, structured format including Patient Details, Medication Details, Data Preprocessing, Quantum Machine Learning Model Used, Predicted Risk Level (Low/Medium/High), Probability Score, Possible Drug Interaction, Recommended Action, and Conclusion.
 
 ---
 
