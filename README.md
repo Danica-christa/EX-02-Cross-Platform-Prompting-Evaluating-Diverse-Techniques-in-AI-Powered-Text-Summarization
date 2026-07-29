@@ -16,38 +16,41 @@ Output Format Prompt
 ChatGPT, Gemini
 
 ## Article: The Importance of Renewable Energy
-
+```
 Polypharmacy Side-Effects Risk Predictor using Quantum Machine Learning is a healthcare-focused project that aims to predict the risk of adverse side effects caused by taking multiple medications simultaneously (polypharmacy). Patients, particularly older adults and those with chronic illnesses, often require several drugs at the same time, increasing the possibility of harmful drug–drug interactions. The proposed system collects patient information such as age, gender, medical history, existing diseases, medication details, dosage, treatment duration, and previous allergic reactions. After preprocessing and encoding the data, a Quantum Machine Learning (QML) model, such as a Variational Quantum Classifier (VQC) or Quantum Neural Network (QNN), is trained to classify the patient's risk level as Low, Medium, or High, or predict whether an adverse side effect is likely to occur. The model can be trained using publicly available datasets such as MIMIC-IV, SIDER, and DrugBank, and its performance can be compared with traditional machine learning algorithms to evaluate the benefits of quantum computing. By identifying high-risk medication combinations before treatment, the system can assist healthcare professionals in making safer prescribing decisions, reducing adverse drug reactions, improving patient safety, supporting personalized medicine, and lowering healthcare costs. Future enhancements include integrating the system with electronic health records, providing personalized dosage recommendations, incorporating explainable AI for transparent predictions, and deploying the solution on cloud-based quantum computing platforms for real-time clinical decision support.
-
+```
 ## Prompts
 ### Basic Prompt
+```
 Predict the risk of polypharmacy side effects using Quantum Machine Learning.
-
----
+```
 ### Role Prompt
+```
 You are a Quantum Machine Learning and Healthcare AI expert tasked with developing a system to predict the risk of polypharmacy side effects using patient and medication data.
 
 ---
 ### Context Prompt
 Multiple medications can cause harmful drug interactions. Build a Quantum Machine Learning system that analyzes patient and medication data to predict the risk of adverse side effects and classify patients into Low, Medium, or High-risk categories.
 
----
+```
 
 ### Constraint Prompt
+```
 Use only relevant patient and medication data, ensure accurate risk prediction, protect patient privacy, classify risk as Low/Medium/High, and keep the model efficient and interpretable.
 
----
+```
 ### Output Format Prompt (Final Prompt)
+```
 Generate the output in a clear, structured format including Patient Details, Medication Details, Data Preprocessing, Quantum Machine Learning Model Used, Predicted Risk Level (Low/Medium/High), Probability Score, Possible Drug Interaction, Recommended Action, and Conclusion.
 
----
+```
 
 ## Output
 ### ChatGPT
 #### Basic Prompt
 ```
-
 To predict the risk of polypharmacy side effects by analyzing patient and medication data using Quantum Machine Learning (QML), and classify the risk as Low, Medium, or High to support safer treatment decisions.
+
 ```
 
 #### Role Prompt
