@@ -80,11 +80,10 @@ Key Takeaways:
 ## Output
 ### ChatGPT
 #### Basic Prompt
-Summary:
+```
 
 To predict the risk of polypharmacy side effects by analyzing patient and medication data using Quantum Machine Learning (QML), and classify the risk as Low, Medium, or High to support safer treatment decisions.
-
----
+```
 
 #### Role Prompt
 Summary:
