@@ -71,7 +71,9 @@ Provide the output in the following format: Project Overview, Objectives, Datase
 
 
 ## Output
- 
+
+<img width="1157" height="662" alt="image" src="https://github.com/user-attachments/assets/2a8b49b8-e98b-4f9f-87b0-d008c4886544" />
+
 
 ## Conclusion
 
